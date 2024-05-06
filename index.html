@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        </head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            <div class="cart-item" id="cart-item0">
+                <div class="card">
+                    <img src="img/product1.jpg" alt="Item 1" class="item-image">
+                    <button class="like-btn" id="like-btn" onclick="like_or_dislike_item()">
+                        <i class="far fa-heart" aria-hidden="true" id="favorite"></i>
+                    </button>  
+                    <div class="card-body">
+                        <h2 class="item-title">Item 1</h2>
+                        <p class="item-price" >Price: $<span id="item-price">20</span></p>
+                        <div class="item-actions">
+                            <button class="minus-btn" onclick="minus_product()">-</button>
+                            <span class="quantity" id="quantity">1</span>
+                            <button class="plus-btn" onclick="plus_product()">+</button>   
+                            <button class="delete-btn like-btn" onclick="delete_item()">Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="total">
+                    Total: $<span id="total-price">20</span>
+                </div>
+            </div>
+        </div>   
+        
+        <script src="js/my_js.js"></script>
+
+    </body>
+</html>

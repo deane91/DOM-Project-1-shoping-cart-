@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card-body {
+    padding: 0px 20px 20px 20px;
+    margin-top: -7px;
+  }
+  
+  .item-title {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .item-price {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+  }
+  
+  .like-btn {
+    margin-left: auto;
+    color: black;
+  }
+  
+  .delete-btn {
+    color: red;
+  }
+  
+  .total {
+    text-align: right;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
